@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-text {
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.border-radius {
+  border-radius: 10px;
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <title>Portfolio Home Page</title>
+  </head>
+  <body>
+    <header>
+      <!-- Header (start) -->
+      <!-- Navbar (start) -->
+      <nav>
+        <div class="navbar flex w-full h-16 bg-green-500 text-4xl items-center fixed z-20">
+          <div
+            class="left w-1/4 flex justify-end items-center font-serif font-bold p-1 text-slate-800 hover:text-black"
+          >
+            <p>My Portfolio</p>
+          </div>
+          <div class="right w-3/4 flex justify-end space-x-8 text-2xl p-4">
+            <a href="#" class="text-white hover:text-black">Home</a>
+            <span
+              class="text-sm w-0 p-0 space-x-0 flex items-center hover:h-5 cursor-default"
+              >|</span
+            >
+            <a href="/src/pages/about.html" class="hover:text-white">About</a>
+
+            <span
+              class="text-sm w-0 p-0 space-x-0 flex items-center hover:h-5 cursor-default"
+              >|</span
+            >
+            <a href="project.html" class="hover:text-white">Projects</a>
+            <span
+              class="text-sm w-0 p-0 space-x-0 flex items-center hover:h-5 cursor-default"
+              >|</span
+            >
+            <a href="achievment.html" class="hover:text-white">Achievments</a>
+            <span
+              class="text-sm w-0 p-0 space-x-0 flex items-center hover:h-5 cursor-default"
+              >|</span
+            >
+            <a href="contact.html" class="hover:text-white">Contact</a>
+            <a href="#"></a>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar (end) -->
+    </header>
+    <!-- Header (end) -->
+
+    <!-- Main (start) -->
+    <main>
+      <!-- Greetings (start) -->
+      <div
+        class="Greetings w-full h-32 bg-black text-white text-3xl font-serif flex justify-center items-center cursor-default pt-14"
+      >
+        <marquee
+          class="flex justify-center hover:text-slate-400 z-10"
+          behavior="slide"
+          loop="1"
+          direction="down"
+          >You Are Welcome!</marquee
+        >
+      </div>
+      <!-- Greetings (end) -->
+
+      <!-- About (start) -->
+      <div class="line w-full h-[0.09rem] bg-gray-600"></div>
+      <div
+        class="Greetings w-full h-32 bg-black text-green-700 text-5xl font-serif flex justify-center items-center p-2 underline decoration-2 underline-offset-8 cursor-default hover:text-white"
+      >
+        About Me
+      </div>
+
+      <!-- Intro (start) -->
+      <div class="intro flex bg-black w-full h-[25rem]">
+        <div class="left-box w-[40%] flex justify-center items-center">
+          <div class="image bg-black h-48 w-48 ml-16">
+            <img
+              src="src/assets/profile.png"
+              alt="Profile Pic"
+              class="rounded-3xl border-black text-white hover:border-8"
+            />
+            <pre class="text-white text-4xl font-serif"> I'm Guddu</pre>
+          </div>
+        </div>
+        <div
+          class="right-box w-[60%] text-white space-y-4 ml-40 mr-32 text-justify text-xl"
+        >
+          <p>
+            Thanks for your interest, here is a quick story of me and this
+            Website
+          </p>
+          <p>
+            I do my work mainly in Python, JavaScript and Data Structure and
+            Algorithm are my stronger section. Besides these I know Web
+            Development, LINUX and database as well.
+          </p>
+          <p>
+            This website is basically one of my Web Development project which is
+            built using HTML & CSS. Here one can also find ideas for projects in
+            different languages.
+          </p>
+          <p>Cheeres,</p>
+          <p class="font-bold">My Portfolio</p>
+        </div>
+      </div>
+      <!-- Intro (end) -->
+      <!-- About (end) -->
+
+      <!-- Project (start) -->
+      <div class="projects">
+        <div
+          class="Greetings w-full h-32 bg-slate-400 text-black text-4xl font-serif flex justify-center items-center p-2 underline decoration-2 underline-offset-8 cursor-default hover:text-white"
+        >
+          Projects
+        </div>
+        <div
+          class="project-name w-full h-80 bg-slate-400 text-black text-xl font-serif flex"
+        >
+          <div class="item ml-48 mt-8 style">
+            <ul class="list-disc space-y-4">
+              <div class="flex items-center hover:text-white">
+                <li>Calculator</li>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/arrow.svg" alt=""
+                /></a>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/play.svg" alt=""
+                /></a>
+              </div>
+              <div class="flex items-center hover:text-white">
+                <li>Stone Paper Scissor</li>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/arrow.svg" alt=""
+                /></a>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/play.svg" alt=""
+                /></a>
+              </div>
+              <div class="flex items-center hover:text-white">
+                <li>ToDo App</li>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/arrow.svg" alt=""
+                /></a>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/play.svg" alt=""
+                /></a>
+              </div>
+              <div class="flex items-center hover:text-white">
+                <li>Digital Clock</li>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/arrow.svg" alt=""
+                /></a>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/play.svg" alt=""
+                /></a>
+              </div>
+              <div class="flex items-center hover:text-white">
+                <li>Cricket Game</li>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/arrow.svg" alt=""
+                /></a>
+                <a href="#"
+                  ><img class="w-5 hover:w-6 mx-3" src="src/assets/play.svg" alt=""
+                /></a>
+              </div>
+              <div class="flex items-center hover:text-white">
+                <li>My Portfolio</li>
+                <a href="#"
+                ><img class="w-5 hover:w-6 mx-3" src="src/assets/arrow.svg" alt=""
+                /></a>
+                <a href="#"
+                ><img class="w-5 hover:w-6 mx-3" src="src/assets/play.svg" alt=""
+                /></a>
+              </div>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project (end) -->
+
+      <!-- Achievments (start) -->
+      <div class="Achivement">
+        <div
+          class="Greetings w-full h-32 bg-black text-green-700 text-3xl font-serif flex justify-center items-center p-2 underline decoration-2 underline-offset-8 cursor-default hover:text-white"
+        >
+          Achievments
+        </div>
+        <div class="achivement-text bg-black text-white w-full h-96">
+          <div class="achive-text mx-32 text-2xl p-8">
+            <ul class="list-disc">
+              <li class="font-bold">Python Modules Internship</li>
+              <ul class="mx-12 text-xl" style="list-style: circle">
+                <li>December, 2023 - present</li>
+                <li>Write technical articles on programming related topics.</li>
+              </ul>
+              <li class="font-bold mt-8">Front End Development Internship</li>
+              <ul class="mx-12 text-xl" style="list-style: circle">
+                <li>August, 2024 - present</li>
+                <li>
+                  Given Task to solve related to HTML, CSS and JS. Level vise Task Categories
+                </li>
+              </ul>
+              <li class="font-bold mt-8">Mentor HackTX</li>
+              <ul class="mx-12 text-xl" style="list-style: circle">
+                <li>October, 2023.</li>
+                <li>
+                  Selected from Microsoft as Student Ambassdor where I mentored
+                  students in their projects.>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Achivement (end) -->
+
+      <!-- Contact (start) -->
+      <div class="contact">
+        <div
+          class="Greetings w-full h-32 bg-slate-400 text-black text-4xl font-serif flex justify-center items-center p-2 underline decoration-2 underline-offset-8 cursor-default hover:text-white"
+        >
+          Contact
+        </div>
+        <div
+          class="form w-full h-[28rem] bg-slate-400 text-black flex justify-center items-center"
+        >
+          <form
+            action=""
+            class="border-radius bg-black text-white w-64 h-[26rem]"
+          >
+            <div class="name m-4">
+              <label for="name" class="mr-20">Name : <span class="text-red-700">*</span></label>
+              <input type="text" class="input-text w-52 mt-1 text-black" />
+            </div>
+            <div class="email m-4">
+              <label for="email" class="mr-20">Email : <span class="text-red-700">*</span></label>
+              <input
+                type="email"
+                class="input-text w-52 mt-1"
+                style="color: black"
+              />
+            </div>
+            <div class="number m-4">
+              <label for="number" class="mr-16">Number : <span class="text-red-700">*</span></label>
+              <input type="tel" class="input-text w-52 mt-1 text-black" />
+            </div>
+            <div class="message m-4">
+              <label for="textarea" class="mr-16" padding-left: 5px;
+                >Message : <span class="text-red-700">*</span>
+              </label>
+              <textarea
+                name="Message"
+                id="m01"
+                class="input-text w-52 max-h-16 min-h-16 mt-1 text-black"
+              ></textarea>
+            </div>
+            <div class="btn-submit flex justify-center">
+              <button
+                class="bg-white text-black text-sm px-1 mt-[0.5rem] font-bold rounded-md border-2 hover:border-blue-600" onclick="alert('Form submitted successfully!')"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Contact (end) -->
+    </main>
+    <footer></footer>
+  </body>
+</html>
+
+<!-- Develope by Guddu Kumar (19 July 2024) -->
